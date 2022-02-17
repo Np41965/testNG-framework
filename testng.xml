@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testingbaba">
+
+
+  <test name="Smoke" enabled="false">
+    <classes>
+      <class name="test.Testingbaba_launch_test"/>
+    </classes>
+  </test>  
+ 
+  <test name="Textbox" enabled="false">
+    <classes>
+      <class name="test.Testingbaba_textbox_Test"/>
+    </classes>
+  </test> 
+
+
+ <test name="CheckBox" enabled="false">
+    <classes>
+      <class name="test.Testingbaba_CheckBox_Test"/>
+    </classes>
+  </test> 
+
+
+<test name="RadioButton" enabled="false">
+    <classes>
+      <class name="test.Testingbaba_RadioButton_test"/>
+    </classes>
+  </test> 
+
+ <test name="webtable"  enabled="false">
+    <classes>
+      <class name="test.Testingbaba_webtable_test"/>
+    </classes>
+  </test> 
+  
+  <test name="Buttons" enabled="false">
+    <classes>
+      <class name="test.Testingbaba_Buttons_test"/>
+    </classes>
+  </test> 
+  
+
+
+ <test name="Links" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_links_test"/>
+   </classes>
+ </test> 
+ 
+  <test name="Alert_Frame" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_Alert_Frame_test"/>
+   </classes>
+ </test> 
+ 
+ <test name="Frame" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_Frame_test"/>
+   </classes>
+ </test>
+ 
+  <test name="upload_download" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_upload_download_test"/>
+   </classes>
+ </test>
+ 
+ <test name="Autocomplete" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_Autocomplete_test"/>
+   </classes>
+ </test>
+ 
+ <test name="Tool_Tips" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_Tool_Tips_test"/>
+   </classes>
+ </test>
+ 
+ <test name="Hoverandclick" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_Hoverandclick_test"/>
+   </classes>
+ </test>
+ 
+<test name="datepiker" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_datepiker_test"/>
+   </classes>
+ </test>
+ 
+ <test name="shortable" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_shortable_test"/>
+   </classes>
+ </test>
+
+ 
+ <test name="resizable" enabled="false">
+   <classes>
+     <class name="test.Testingbaba_resizable_test"/>
+   </classes>
+ </test>
+
+ <test name="dragandrop" enabled="true">
+   <classes>
+     <class name="test.demoqa_DragAndDrop_test"/>
+   </classes>
+ </test>
+
+</suite> 

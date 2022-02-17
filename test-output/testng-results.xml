@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-28T10:22:17 IST" name="Testingbaba" finished-at="2022-01-28T10:22:30 IST" duration-ms="13755">
+    <groups>
+    </groups>
+    <test started-at="2022-01-28T10:22:17 IST" name="dragandrop" finished-at="2022-01-28T10:22:30 IST" duration-ms="13755">
+      <class name="test.demoqa_DragAndDrop_test">
+        <test-method is-config="true" signature="launchurl()[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:17 IST" name="launchurl" finished-at="2022-01-28T10:22:28 IST" duration-ms="11348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchurl -->
+        <test-method signature="Title()[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:28 IST" name="Title" finished-at="2022-01-28T10:22:28 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Title -->
+        <test-method is-config="true" signature="getresultanalyses(org.testng.ITestResult)[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:28 IST" name="getresultanalyses" finished-at="2022-01-28T10:22:28 IST" duration-ms="386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Title status=SUCCESS method=demoqa_DragAndDrop_test.Title()[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalyses -->
+        <test-method signature="Tilldragbalbtn()[pri:1, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:28 IST" name="Tilldragbalbtn" finished-at="2022-01-28T10:22:29 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tilldragbalbtn -->
+        <test-method is-config="true" signature="getresultanalyses(org.testng.ITestResult)[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:29 IST" name="getresultanalyses" finished-at="2022-01-28T10:22:30 IST" duration-ms="522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tilldragbalbtn status=SUCCESS method=demoqa_DragAndDrop_test.Tilldragbalbtn()[pri:1, instance:test.demoqa_DragAndDrop_test@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalyses -->
+        <test-method signature="dragAndDrop()[pri:2, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:30 IST" name="dragAndDrop" finished-at="2022-01-28T10:22:30 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDrop -->
+        <test-method is-config="true" signature="getresultanalyses(org.testng.ITestResult)[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:30 IST" name="getresultanalyses" finished-at="2022-01-28T10:22:30 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragAndDrop status=SUCCESS method=demoqa_DragAndDrop_test.dragAndDrop()[pri:2, instance:test.demoqa_DragAndDrop_test@58d75e99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getresultanalyses -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test.demoqa_DragAndDrop_test@58d75e99]" started-at="2022-01-28T10:22:30 IST" name="teardown" finished-at="2022-01-28T10:22:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.demoqa_DragAndDrop_test -->
+    </test> <!-- dragandrop -->
+  </suite> <!-- Testingbaba -->
+</testng-results>
