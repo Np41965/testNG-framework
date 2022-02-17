@@ -9,14 +9,14 @@
     </classes>
   </test>  
  
-  <test name="Textbox" enabled="false">
+  <test name="Textbox" enabled="true">
     <classes>
       <class name="test.Testingbaba_textbox_Test"/>
     </classes>
   </test> 
 
 
- <test name="CheckBox" enabled="false">
+ <test name="CheckBox" enabled="true">
     <classes>
       <class name="test.Testingbaba_CheckBox_Test"/>
     </classes>
