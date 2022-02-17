@@ -11,6 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import screenshortutility.Screenshortutility;
 
 public class Baselibrary
@@ -18,8 +19,9 @@ public class Baselibrary
 	public static WebDriver driver;
 	public static void getlaunch(String url)
 	{
-		String location=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", location+"\\Driver\\chromedriver.exe");
+		//String location=System.getProperty("user.dir");
+		//System.setProperty("webdriver.chrome.driver", location+"\\Driver\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();

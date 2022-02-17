@@ -6,6 +6,7 @@
       <class name="test.demoqa_DragAndDrop_test">
         <methods>
           <include name="getresultanalyses"/>
+          <include name="Title"/>
           <include name="Tilldragbalbtn"/>
           <include name="teardown"/>
           <include name="dragAndDrop"/>
